@@ -60,7 +60,7 @@
       <Project>{FDFC1237-143F-4919-8318-4926901F4639}</Project>
       <Name>dnlib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\KoiVM\KoiVM.csproj">
+    <ProjectReference Include="..\KoiVM\KoiVM\KoiVM.csproj">
       <Project>{9E333771-BC67-4120-9C67-D15311C0F67C}</Project>
       <Name>KoiVM</Name>
     </ProjectReference>

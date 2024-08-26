@@ -28,15 +28,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confuser.Runtime", "Confuse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfuserEx", "ConfuserEx\ConfuserEx.csproj", "{B5205EBA-EC32-4C53-86A0-FAEEE7393EC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM", "KoiVM\KoiVM.csproj", "{9E333771-BC67-4120-9C67-D15311C0F67C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM", "KoiVM\KoiVM\KoiVM.csproj", "{9E333771-BC67-4120-9C67-D15311C0F67C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{E91567B7-2D4D-407C-A55C-3A0D85D55BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Runtime", "KoiVM.Runtime\KoiVM.Runtime.csproj", "{1A1DA722-FE8A-4B49-86ED-DC582F0B0B47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Runtime", "KoiVM\KoiVM.Runtime\KoiVM.Runtime.csproj", "{1A1DA722-FE8A-4B49-86ED-DC582F0B0B47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Driver", "KoiVM.Driver\KoiVM.Driver.csproj", "{C90C58CA-7706-4CCF-BA92-78D6723CA943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Confuser", "KoiVM.Confuser\KoiVM.Confuser.csproj", "{45B6B86A-D081-4CCB-A548-33D669EF195B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Confuser", "KoiVM\KoiVM.Confuser\KoiVM.Confuser.csproj", "{45B6B86A-D081-4CCB-A548-33D669EF195B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoiVM.Confuser.Processor", "KoiVM.Confuser.Processor\KoiVM.Confuser.Processor.csproj", "{D1A4E9EE-8C46-4DAD-906C-25A798C230BB}"
 	ProjectSection(ProjectDependencies) = postProject
