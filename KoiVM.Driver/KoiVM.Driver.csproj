@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net4.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Title>KoiVM Driver</Title>
     <Description>KoiVM debug driver</Description>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="dnlib">
-      <HintPath>C:\d\prog\confuser-1.0\dnlib.dll</HintPath>
+      <HintPath>$(ConfuserInstallationDir)\dnlib.dll</HintPath>
     </Reference>
     <ProjectReference Include="..\KoiVM\KoiVM\KoiVM.csproj" />
   </ItemGroup>

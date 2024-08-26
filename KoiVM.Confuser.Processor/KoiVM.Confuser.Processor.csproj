@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net4.0</TargetFramework>
     <Title>KoiVM Processor</Title>
     <Description>KoiVM distrbution processor</Description>
     <UseWindowsForms>true</UseWindowsForms>

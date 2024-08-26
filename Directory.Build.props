@@ -5,6 +5,7 @@
     <Copyright>Copyright (C) Ki 2014</Copyright>
     <VersionPrefix>1.0.0</VersionPrefix>
 
+    <TargetFramework>net461</TargetFramework>
     <ConfuserInstallationDir></ConfuserInstallationDir>
   </PropertyGroup>
 </Project>

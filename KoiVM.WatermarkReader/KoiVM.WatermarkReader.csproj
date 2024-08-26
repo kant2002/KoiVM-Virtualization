@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net4.0</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Title>KoiVM Watermark reder</Title>
     <Description>Reader of embedded watermark</Description>
@@ -9,7 +8,7 @@
   
   <ItemGroup>
     <Reference Include="dnlib">
-      <HintPath>C:\d\prog\confuser-1.0\dnlib.dll</HintPath>
+      <HintPath>$(ConfuserInstallationDir)\dnlib.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

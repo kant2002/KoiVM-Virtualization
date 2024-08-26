@@ -63,11 +63,11 @@ namespace KoiVM.WatermarkReader
         {
             try
             {
-                var md = MetaDataCreator.CreateMetaData(new PEImage(file));
+                var md = MetadataFactory.CreateMetadata(new PEImage(file));
                 var stream = md.AllStreams.FirstOrDefault(s => s.Name == "#Koi");
                 if(stream == null)
                     return file;
-                var str = stream.GetClonedImageStream();
+                var str = stream.CreateReader();
                 return str.ReadBytes((int) str.Length);
             }
             catch

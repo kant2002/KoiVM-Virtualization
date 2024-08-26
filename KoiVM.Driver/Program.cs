@@ -35,7 +35,9 @@ namespace KoiVM.Driver
 
             var dir = Path.GetDirectoryName(args[0]);
             vr.SaveRuntime(dir);
-            module.Write(Path.Combine(dir, "Test.virtualized.exe"), new ModuleWriterOptions(module, listener));
+            var options = new ModuleWriterOptions(module);
+            options.WriterEvent += (s, e) => listener.OnWriterEvent((ModuleWriter)s, e.Event);
+            module.Write(Path.Combine(dir, "Test.virtualized.exe"), options);
             if(Debug)
                 File.WriteAllBytes(Path.Combine(dir, "Test.virtualized.map"), vr.Runtime.DebugInfo);
         }
