@@ -3,4 +3,4 @@
 	url = https://github.com/yck1509/dnlib.git
 [submodule "KoiVM"]
 	path = KoiVM
-	url = https://github.com/Loksie/KoiVM.git
+	url = https://github.com/kant2002/KoiVM
