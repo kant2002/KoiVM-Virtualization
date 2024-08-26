@@ -36,3 +36,5 @@ gh-pages/
 GlobalAssemblyInfo.cs
 /Build/*.zip
 !Build/7z.exe
+
+.vs/
