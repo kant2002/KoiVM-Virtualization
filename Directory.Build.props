@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <Product>ConfuserEx</Product>
+    <Company>Ki</Company>
+    <Copyright>Copyright (C) Ki 2014</Copyright>
+    <VersionPrefix>1.0.0</VersionPrefix>
+
+    <ConfuserInstallationDir></ConfuserInstallationDir>
+  </PropertyGroup>
+</Project>
