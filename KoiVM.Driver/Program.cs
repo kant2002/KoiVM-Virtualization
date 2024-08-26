@@ -23,9 +23,10 @@ namespace KoiVM.Driver
             resolver.DefaultModuleContext = new ModuleContext(resolver);
 
             var module = ModuleDefMD.Load(args[0], resolver.DefaultModuleContext);
-            if(Debug)
-                module.LoadPdb();
+            //if(Debug)
+            //    module.LoadPdb();
             var vr = new Virtualizer(100, Debug);
+            vr.ExportDbgInfo = Debug;
             vr.Initialize(ModuleDefMD.Load(args[1], resolver.DefaultModuleContext));
             vr.AddModule(module);
 
