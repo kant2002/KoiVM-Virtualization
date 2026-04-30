@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Confuser.Core" Version="1.7.0-alpha-0079-g5c30abecfe" />
+    <PackageVersion Include="Confuser.DynCipher" Version="1.7.0-alpha-0079-g5c30abecfe" />
+    <PackageVersion Include="Confuser.Protections" Version="1.7.0-alpha-0079-g5c30abecfe" />
+    <PackageVersion Include="Confuser.Renamer" Version="1.7.0-alpha-0079-g5c30abecfe" />
+    <PackageVersion Include="Confuser.Runtime" Version="1.7.0-alpha-0079-g5c30abecfe" />
+    <PackageVersion Include="dnlib" Version="4.5.0" />
+  </ItemGroup>
+</Project>

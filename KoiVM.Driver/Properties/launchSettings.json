@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "KoiVM.Driver": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\d\\github\\KoiVM-Virtualization\\Test\\bin\\Release\\net4.0\\Test.exe KoiVM.Runtime.dll"
+    }
+  }
+}

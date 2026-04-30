@@ -7,9 +7,7 @@
     <Description>KoiVM debug driver</Description>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dnlib">
-      <HintPath>$(ConfuserInstallationDir)\dnlib.dll</HintPath>
-    </Reference>
+    <PackageReference Include="dnlib" />
     <ProjectReference Include="..\KoiVM\KoiVM\KoiVM.csproj" />
   </ItemGroup>
   

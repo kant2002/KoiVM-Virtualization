@@ -5,7 +5,7 @@
     <Copyright>Copyright (C) Ki 2014</Copyright>
     <VersionPrefix>1.0.0</VersionPrefix>
 
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>net472</TargetFramework>
     <!-- It is require ConfuserEx2 1.1 from https://github.com/mkaring/ConfuserEx/releases/tag/v1.1.0-->
     <ConfuserInstallationDir></ConfuserInstallationDir>
   </PropertyGroup>
